@@ -10,6 +10,7 @@
 ## readme 文档
 1. readme文件可以txt文档，也可以是md文档
 2. 一般和项目放在一起，作为项目的说明文档
+<<<<<<< HEAD
 
 ## 全局配置
 1. 配置用户名：git config --global user.name "你的git名称"
@@ -54,3 +55,6 @@
 4. 如果本地有该项目，应该直接更新到本地：git pull
 5. git fetch  将远程更新到本地
 
+=======
+线上修改了文件11
+>>>>>>> 160adf04e4d065b2fc8e855d7796dc8ae075eef8
