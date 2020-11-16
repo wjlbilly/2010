@@ -54,5 +54,19 @@
 4. 如果本地有该项目，应该直接更新到本地：git pull
 5. git fetch  将远程更新到本地
 
+## 分支操作
+1. 查看当前仓库的所有分支：git branch
+   查看远程分支 git branch -r
+2. 当前分支前面带有星号 *
+3. 创建分支：git branch 分支名
+4. 切换分支：git checkout 分支名  
+5. 切换分支之后，工作区的代码自动切换到对应分支的代码
+6. 合并分支：git merge test  把test分支合并到当前分支
+7. 删除分支：git branch -d 分支名
+8. git pull origin dev 更新代码到本地，自动合并到当前分支
+9. git fetch origin dev 更新代码到本地，不会合并到当前分支
+10. git merge FETCH_HEAD  把FETCH_HEAD合并到当前分支
+
 线上修改了文件11
  创建了一个分支test22
+ 创建了一个分支dev
